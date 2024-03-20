@@ -11,7 +11,7 @@ interface ICheckboxFieldController {
 
 const CheckboxFieldController = ({ label, control, name, error }: ICheckboxFieldController) => {
   return (
-    <Box className='flexJustifyBetween'>
+    <Box className='flexAlignCenter gap5'>
       <Typography variant={'body2'} component='span'>{label}</Typography>
       <Controller
         defaultValue={false}

@@ -2,6 +2,12 @@
 
 .flex {
   display: flex;
+  &Align {
+    &Center {
+      display: flex;
+      align-items: center;
+    }
+  }
   &Column {
     display: flex;
     flex-direction: column;
