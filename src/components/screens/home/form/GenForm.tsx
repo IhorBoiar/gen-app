@@ -68,7 +68,7 @@ const GenForm = () => {
       onSubmit={handleSubmit(onSubmit)}
     >
       <Box className={'form__title'}>
-        <Typography variant={'h1'} component={'span'}>🟣 Gen App</Typography>
+        <Typography variant={'h1'} component={'span'}>🟣 MSNG App</Typography>
       </Box>
       <Box className='form__content'>
         <Grid container spacing={2}>
